@@ -1,0 +1,140 @@
+* {
+  background-image: url(./images/crowd.jpg);
+  background-size: cover;
+}
+
+#beatButtons {
+  margin: auto;
+  width: 250px;
+}
+
+#heading {
+  text-align: center;
+
+  border: 5px;
+  border-style: outset;
+  border-color: aqua;
+  color: white;
+}
+
+#kickButton {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: red;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+
+#kickButton:hover {
+  color: red;
+}
+
+#clapButton {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: blue;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+#clapButton:hover {
+  color: blue;
+}
+
+#snareButton {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: green;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 800;
+}
+#snareButton:hover {
+  color: green;
+}
+
+#hatButton {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: blueviolet;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+#hatButton:hover {
+  color: blueviolet;
+}
+
+#crashButton {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: yellow;
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 800;
+}
+#crashButton:hover {
+  color: yellow;
+}
+
+#percButton {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: orange;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+#percButton:hover {
+  color: orange;
+}
+
+#kick2Button {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: rgb(114, 209, 247);
+  background-color: black;
+  color: white;
+  font-size: larger;
+  font-weight: 800;
+}
+
+#kick2Button:hover {
+  color: red;
+}
+
+#snare2Button {
+  height: 120px;
+  width: 120px;
+  border: 18px;
+  border-style: double;
+  border-color: rgb(128, 0, 128);
+  background-color: black;
+  color: white;
+  font-size: large;
+  font-weight: 800;
+}
+#snare2Button:hover {
+  color: green;
+}

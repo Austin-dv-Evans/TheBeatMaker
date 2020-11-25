@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat Buttons</title>
+    <link rel="stylesheet" href="index.css"> 
+    <script src="script.js"></script>
+</head>
+<body>
+    <audio preload="auto" id="kick" src="./audio/WBBLKick.wav" > </audio>
+    <audio preload="auto" id="clap" src="./audio/WBBLClap.wav"></audio>
+    <audio preload="auto" id="snare" src="./audio/WBBLSnare.wav"></audio>
+    <audio preload="auto" id="hat" src="./audio/WBBLHat2.wav"></audio>
+    <audio preload="auto" id="crash" src="./audio/WBBLCrash.wav"></audio>
+    <audio preload="auto" id="perc" src="./audio/WBBLPerc.wav"></audio>
+    <audio preload="auto" id="kick2" src="./audio/WBBLKick2.wav"></audio>
+    <audio preload="auto" id="snare2" src="./audio/WBBLSnare2.wav"></audio>
+    <h1 id="heading">The Beat Maker!!!</h1>
+    <div id="beatButtons">
+        <button onClick="playKick()" type="button" id="kickButton">Kick</button>
+        <button onClick="playClap()" type="button" id="clapButton">Clap</button>
+        <button onClick="playSnare()" type="button" id="snareButton">Snare</button>
+        <button onClick="playHat()" type="button" id="hatButton">Hat</button>
+        <button onClick="playCrash()" type="button" id="crashButton">Crash</button>
+        <button onClick="playPerc()" type="button" id="percButton">Perc</button>
+        <button onClick="playKick2()" type="button" id="kick2Button">Kick 2</button>
+        <button onClick="playSnare2()" type="button" id="snare2Button">Snare 2</button>
+    </div>
+</body>
+</html>
