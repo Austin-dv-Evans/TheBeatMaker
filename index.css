@@ -10,10 +10,9 @@
 
 #heading {
   text-align: center;
-
   border: 5px;
   border-style: outset;
-  border-color: aqua;
+  border-color: rgb(5, 110, 110);
   color: white;
 }
 
